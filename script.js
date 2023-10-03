@@ -6,7 +6,7 @@
 
 document.querySelector('.cmnts>button').onclick = function(){
     if(document.querySelector('.cmnts>input').value.length == 0){
-        alert("Kindly Enter Task Name!!!!")
+        alert("Comment section cannot be Blank!!!")
     }
 
     else{
